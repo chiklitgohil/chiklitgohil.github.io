@@ -63,11 +63,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //  Work Toggle
 
-  const workList = document.getElementById("work-list");
-  const showWork = document.getElementById("show-work");
+  // const workList = document.querySelectorAll("work-list");
+  // const showWork = document.getElementById("show-work");
 
-  showWork.addEventListener("click", function () {
-    workList.classList.remove("hidden");
-    showWork.classList.add("hidden");
+  // showWork.addEventListener("click", function () {
+  //   workList.classList.remove("hidden");
+  //   showWork.classList.add("hidden");
+  // });
+
+  document.querySelectorAll(".show-work").forEach((button) => {
+    button.addEventListener("click", function () {
+      const target = this.nextElementSibling; // Assuming the next sibling is the ul with the class "work-list"
+
+      if (target && target.classList.contains("work-list")) {
+        if (target.classList.contains("hidden")) {
+          target.classList.remove("hidden");
+          this.classList.add("hidden"); // Hide the button itself
+        } else {
+          target.classList.add("hidden");
+          this.classList.remove("hidden");
+        }
+      }
+    });
   });
 });
