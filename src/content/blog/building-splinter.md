@@ -47,7 +47,7 @@ One design decision that took me a while to decide on, and also the one that mig
 
 Working on this project was a great experience, and these types of projects reinforce the idea in my mind that when you have a deadline to meet and you sprint through the project like your life depends on it, that is when good software is made, reminding me of Parkinson's law. I cannot believe this was rapidly iterated over in that span of three days.
 
-Splinter started as a CS50x final project, but to me it became something useful. The current version is far from finished. The UI will change, The architecture will evolve, and new features will emerge as i continue using it. but after years of search a perfect productivity i the solution might just be to build your own.
+Splinter started as a CS50x final project, but to me it became something useful. The current version is far from finished. The UI will change, The architecture will evolve, and new features will emerge as i continue using it. After years in search for a perfect productivity system, the solution might just be to build your own.
 
 ---
 
