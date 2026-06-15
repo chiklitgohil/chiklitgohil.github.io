@@ -12,9 +12,14 @@ This is a blog about a project I built in a three-day sprint. I call it _Splinte
 ## The Problem
 
 I am not even sure if I can call it a problem because it is just me nitpicking in software the same way I am about my meals, but anyway for the rest of this blog I will call it a _problem_. Here is the backstory for some context. When I came into this YouTube space of productivity, along with the Obsidian, Notion, etc. tutorials. I really was trying to find the perfect to-do list app for me in the process.
+
 I tried out all mainstream todo apps, built Notion systems and integrated _TickTick_ and _Todoist_ in life and all this, and I was still not satisfied, so in the end I got frustrated and uninstalled all this bloat.
+
 I moved to my notebook and paper (_Bullet Journal_), and soon its reality hit: I cannot carry my notebook everywhere; notebooks do not give me reminders; they do not sync with my PC; they do not show me trendlines. And then recently I got a Samsung tab, so I transferred the same framework to Samsung Notes and took handwritten notes. Just when I was settled with it finally and it worked really well for a long time. Then came the need for data collection.
-I figured out my personal way of building any habit I wanted. In short, I wanted to keep track of when I was working and when I wasn't and if I was meeting my daily targets. Because it was involved in my robust way of building any habit, did not want to lose this. Somehow I wanted it combined with my daily task because, to some degree, they overlapped. That is when I looked for solutions online, and the ones I found were either half-baked or they were paid. That is when I classified this as a problem and determined I need to devise a solution for this. Before I got to designing the solution, i was reminded of one meme, and thought building a webapp to satify my OCD might just as well be part of this meme... I hope I do not end up on the right AGAIN, 😭...
+
+I figured out my personal way of building any habit I wanted. In short, I wanted to keep track of when I was working and when I wasn't and if I was meeting my daily targets. Because it was involved in my robust way of building any habit, did not want to lose this. Somehow I wanted it combined with my daily task because, to some degree, they overlapped. That is when I looked for solutions online, and the ones I found were either half-baked or they were paid.
+
+That is when I classified this as a problem and determined I need to devise a solution for this. Before I got to designing the solution, i was reminded of one meme, and thought building a webapp to satify my OCD might just as well be part of this meme... I hope I do not end up on the right AGAIN, 😭...
 
 ![image of a pkm community meme](/assets/images/splinter-pkm-meme.png)
 
@@ -25,7 +30,9 @@ So I got working brainstorming, screenshotting my favorite features and pasting 
 ## Core Features
 
 Here is what I finalized on the philosophy of my app; other than the basic todo feature, this is what made the app really for me. I needed a way to have something come up in the morning or anytime I first open the app for the day to get a pop-up for selecting all the tasks I might want to do today, and I can simply select those and have them stay in a "today" view for the rest of the day until midnight (or whatever time I set) and then reset after that, and any uncompleted tasks lose their "today" label.
+
 Another thing is that I always saw a feature of recurring tasks in todo apps, but for me they are more like a habit-building tool than recurring tasks. It is something I have to do every day. And along with that, I need to track the time I did that task for. It's almost like a category of my life for which I might have subtasks too. And that level of categorization, along with a timer, was nowhere to be found. And I am not sure if there is a requirement for such a tool in people's lives; it's me with a niece's demand.
+
 Some simple feature I am working on on the side might just be markdown support for the notes. and also hotkeys to do things around my app. Because being an _[Obsidian](https://obsidian.md/)_ user and a power user tries to minimize mouse use as much as possible, I NEED keyboard shortcuts.
 
 ## Choosing the Stack
@@ -43,4 +50,5 @@ Working on this project was a great experience, and these types of projects rein
 Splinter started as a CS50x final project, but to me it became something useful. The current version is far from finished. The UI will change, The architecture will evolve, and new features will emerge as i continue using it. but after years of search a perfect productivity i the solution might just be to build your own.
 
 **Check out the project here:** [Splinter App Demo](https://youtu.be/7zWKPHrK01M)
+
 **Source Code:** [GitHub Repository](https://github.com/chiklitgohil/splinter)
