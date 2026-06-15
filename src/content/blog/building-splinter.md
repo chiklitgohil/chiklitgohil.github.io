@@ -49,6 +49,8 @@ Working on this project was a great experience, and these types of projects rein
 
 Splinter started as a CS50x final project, but to me it became something useful. The current version is far from finished. The UI will change, The architecture will evolve, and new features will emerge as i continue using it. but after years of search a perfect productivity i the solution might just be to build your own.
 
+---
+
 **Check out the project here:** [Splinter App Demo](https://youtu.be/7zWKPHrK01M)
 
 **Source Code:** [GitHub Repository](https://github.com/chiklitgohil/splinter)
