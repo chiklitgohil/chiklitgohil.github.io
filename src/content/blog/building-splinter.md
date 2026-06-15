@@ -19,7 +19,7 @@ Then recently I got a Samsung tab, so I transferred the same framework to Samsun
 
 I figured out my personal way of building any habit I wanted. In short, I wanted to keep track of when I was working and when I wasn't and if I was meeting my daily targets. Because it was involved in my robust way of building any habit, did not want to lose this. Somehow I wanted it combined with my daily task because, to some degree, they overlapped. That is when I looked for solutions online, and the ones I found were either half-baked or they were paid.
 
-That is when I classified this as a problem and determined I need to devise a solution for this. Before I got to designing the solution, i was reminded of one meme, and thought building a webapp to satify my OCD might just as well be part of this meme... I hope I do not end up on the right AGAIN, 😭...
+That is when I classified this as a problem and determined I need to devise a solution for this. Before I got to designing the solution, i was reminded of one meme, and thought building a webapp to satisfy my OCD might just as well be part of this meme... I hope I do not end up on the right AGAIN, 😭...
 
 ![image of a pkm community meme](/assets/images/splinter-pkm-meme.png)
 
