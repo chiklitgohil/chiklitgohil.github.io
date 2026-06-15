@@ -81,7 +81,7 @@ const isActive = (href: string) =>
   const closeButton = document.getElementById("mobile-menu-close");
   const links = menu?.querySelectorAll("a") ?? [];
 
-  function setMenu(open) {
+  function setMenu(open: boolean) {
     menu?.classList.toggle("hidden", !open);
     document.body.style.overflow = open ? "hidden" : "";
   }
