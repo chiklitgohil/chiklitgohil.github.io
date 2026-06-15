@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(250, 204, 21, 0.08), transparent 28rem),
+    #18181b;
+  color: #d4d4d8;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #facc15;
+  color: #713f12;
+}
+
+a {
+  color: inherit;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.prose-lite {
+  color: #d4d4d8;
+}
+
+.prose-lite h2 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.75rem;
+  color: #fafafa;
+  font-size: 1.35rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+
+.prose-lite h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #f4f4f5;
+  font-size: 1.1rem;
+  line-height: 1.65rem;
+  font-weight: 650;
+}
+
+.prose-lite p,
+.prose-lite li {
+  font-size: 1rem;
+  line-height: 1.85rem;
+}
+
+.prose-lite p {
+  margin: 1rem 0;
+}
+
+.prose-lite ul,
+.prose-lite ol {
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.prose-lite li {
+  margin: 0.35rem 0;
+}
+
+.prose-lite a {
+  color: #fef08a;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.prose-lite code {
+  border-radius: 0.375rem;
+  background: #27272a;
+  padding: 0.1rem 0.35rem;
+  color: #fef3c7;
+}

@@ -1,0 +1,21 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ContactFooter from "@components/ContactFooter.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import SectionIntro from "@components/SectionIntro.astro";
+import { projects } from "@data/content";
+---
+
+<BaseLayout title="Projects" description="Projects by Chiklit Gohil.">
+  <main class="pt-16">
+    <SectionIntro
+      title="Projects"
+      eyebrow="Builds"
+      description="A fuller look at the websites, experiments, and AI-adjacent projects I have worked on."
+    />
+    <div class="grid gap-4">
+      {projects.map((project) => <ProjectCard project={project} />)}
+    </div>
+  </main>
+  <ContactFooter />
+</BaseLayout>

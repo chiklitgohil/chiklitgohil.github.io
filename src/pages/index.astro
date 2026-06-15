@@ -1,0 +1,50 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ContactFooter from "@components/ContactFooter.astro";
+import ProfileIntro from "@components/ProfileIntro.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import SectionIntro from "@components/SectionIntro.astro";
+import WorkCard from "@components/WorkCard.astro";
+import { about, projects, work } from "@data/content";
+---
+
+<BaseLayout>
+  <main>
+    <ProfileIntro />
+
+    <section class="flex flex-col gap-3 text-base leading-7 text-zinc-300 sm:gap-4 sm:text-lg sm:leading-8">
+      {about.map((paragraph) => <p>{paragraph}</p>)}
+      <p>
+        If you are ready to solve the next big problem together,
+        <a class="font-medium text-white underline decoration-yellow-300 decoration-2 underline-offset-4" href="#contact">let's connect</a>.
+      </p>
+    </section>
+
+    <section id="projects">
+      <SectionIntro
+        title="Projects"
+        eyebrow="Selected work"
+        description="Welcome to the things I have been tinkering with."
+        href="/projects"
+        linkLabel="All projects"
+      />
+      <div class="grid gap-4">
+        {projects.slice(0, 3).map((project) => <ProjectCard project={project} />)}
+      </div>
+    </section>
+
+    <section id="work">
+      <SectionIntro
+        title="Work"
+        eyebrow="Experience"
+        description="A mix of internships, freelance projects, and hands-on web and AI work."
+        href="/work"
+        linkLabel="Full work history"
+      />
+      <div class="grid gap-4">
+        {work.slice(0, 2).map((item) => <WorkCard item={item} />)}
+      </div>
+    </section>
+  </main>
+  <ContactFooter />
+</BaseLayout>

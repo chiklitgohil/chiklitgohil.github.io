@@ -1,0 +1,38 @@
+---
+import Icon from "./Icon.astro";
+import { site, socials } from "@data/site";
+---
+
+<footer id="contact" class="mt-20 flex min-h-[calc(100vh-5rem)] items-center py-16">
+  <section class="w-full rounded-[1.5rem] border border-zinc-700/60 bg-zinc-900/80 p-5 shadow-2xl shadow-black/30 sm:p-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.26em] text-yellow-300">Contact</p>
+    <h2 class="mt-4 max-w-2xl text-4xl font-bold leading-tight text-white sm:text-6xl">
+      Let's build the next useful thing.
+    </h2>
+    <p class="mt-5 max-w-2xl text-base leading-7 text-zinc-300 sm:text-xl sm:leading-8">
+      If you want to get in touch, feel free to
+      <a class="font-medium text-white underline decoration-yellow-300 decoration-2 underline-offset-4" href={`mailto:${site.email}`}>
+        email me
+      </a>.
+    </p>
+
+    <div class="mt-10 grid gap-3 sm:grid-cols-2">
+      {
+        socials.map((social) => (
+          <a
+            class="group flex items-center justify-between rounded-xl border border-zinc-700 bg-zinc-800 px-4 py-4 text-zinc-200 transition-colors hover:border-yellow-300/70 hover:text-white"
+            href={social.href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="flex items-center gap-3">
+              <Icon name={social.icon} class="h-5 w-5 text-yellow-300" />
+              <span class="font-medium">{social.label}</span>
+            </span>
+            <Icon name="external" class="h-4 w-4 text-zinc-500 transition-colors group-hover:text-yellow-300" />
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</footer>
