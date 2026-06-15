@@ -13,9 +13,9 @@ This is a blog about a project I built in a three-day sprint. I call it _Splinte
 
 I am not even sure if I can call it a problem because it is just me nitpicking in software the same way I am about my meals, but anyway for the rest of this blog I will call it a _problem_. Here is the backstory for some context. When I came into this YouTube space of productivity, along with the Obsidian, Notion, etc. tutorials. I really was trying to find the perfect to-do list app for me in the process.
 
-I tried out all mainstream todo apps, built Notion systems and integrated _TickTick_ and _Todoist_ in life and all this, and I was still not satisfied, so in the end I got frustrated and uninstalled all this bloat.
+I tried out all mainstream todo apps, built Notion systems and integrated _TickTick_ and _Todoist_ in life and all this, and I was still not satisfied, so in the end I got frustrated and uninstalled all this bloat. I moved to my notebook and paper (_Bullet Journal_), and soon its reality hit: I cannot carry my notebook everywhere; notebooks do not give me reminders; they do not sync with my PC; they do not show me trendlines.
 
-I moved to my notebook and paper (_Bullet Journal_), and soon its reality hit: I cannot carry my notebook everywhere; notebooks do not give me reminders; they do not sync with my PC; they do not show me trendlines. And then recently I got a Samsung tab, so I transferred the same framework to Samsung Notes and took handwritten notes. Just when I was settled with it finally and it worked really well for a long time. Then came the need for data collection.
+Then recently I got a Samsung tab, so I transferred the same framework to Samsung Notes and took handwritten notes. Just when I was settled with it finally and it worked really well for a long time. Then came the need for data collection.
 
 I figured out my personal way of building any habit I wanted. In short, I wanted to keep track of when I was working and when I wasn't and if I was meeting my daily targets. Because it was involved in my robust way of building any habit, did not want to lose this. Somehow I wanted it combined with my daily task because, to some degree, they overlapped. That is when I looked for solutions online, and the ones I found were either half-baked or they were paid.
 
