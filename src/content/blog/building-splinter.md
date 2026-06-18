@@ -41,7 +41,7 @@ Working on this project was a great experience. These types of projects reinforc
 
 ## What's Next?
 
-Splinter started as a CS50x final project, but to me, it became something useful. The current version is far from finished. The UI will change, the architecture will evolve. And a new feature will emerge as I continue to use it. But after years of searching for perfect productivity, the solution is to build your own. (Something I would like to add to this meme.) Hopefully, I do not end up back on the right this time 😭
+Splinter started as a CS50x final project, but to me, it became something useful. The current version is far from finished. The UI will change, the architecture will evolve. And a new feature will emerge as I continue to use it. But after years of searching for perfect productivity, the solution is to build your own.
 
 ---
 
