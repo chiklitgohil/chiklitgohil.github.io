@@ -117,7 +117,8 @@ Towards the end of the internship, we were teaching opposite words. I asked the 
 
 Looking back, these are the moments I remember the most. Not because they were part of the lesson plan, but because they happened naturally. Somewhere along the way, the classroom stopped feeling like a place where we simply came to teach English. It became a place where all of us were learning, laughing, and making memories together.
 
-![alt text](/assets/images/20260703_114717.jpg)
+<!-- ![alt text](/assets/images/20260703_114717.jpg) -->
+<img src="/assets/images/20260703_114717.jpg" style="width:80%;" />
 
 ## The Friends we made along the way
 
@@ -125,8 +126,8 @@ This internship also would not have been the same without the people I did it wi
 
 Of course, it wasn't all lesson plans and worksheets. There were café visits, badminton games, lunch outings, hackathons in between, and the usual college chaos. Somehow those mornings in Prantiya and our afternoons back on campus blended into one experience
 
-![alt text](/assets/images/20260711_093236.jpg)
-<img src="/assets/images/20260711_093236.jpg" style="width:50%;" />
+<!-- ![alt text](/assets/images/20260711_093236.jpg) -->
+<img src="/assets/images/20260711_093236.jpg" style="width:80%;" />
 
 ## The Farewell
 
@@ -134,7 +135,11 @@ The last week of the internship felt different.
 
 Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Amishal ma'am was kind enough to sponsor the meal, and together we were able to celebrate with around 140 students.
 
-![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0032.jpg)
+<!-- ![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0032.jpg) -->
+<div style="display: flex; gap: 1rem;">
+    <img src="/assets/images/IMG-20260713-WA0035.jpg" style="width:50%;" />
+    <img src="/assets/images/IMG-20260713-WA0032.jpg" style="width:50%;" />
+</div>
 
 What surprised me most wasn't that the kids enjoyed the gifts, it was how grateful they were for them. Some of the children who picked up the colouring books kept asking us over and over,
 
@@ -174,4 +179,5 @@ This was my best attempt to communicate what those twenty-eight days felt like. 
 
 If nothing else, all I can say with certainty is that I will look at the world a little differently now.
 
-![alt text](IMG-20260714-WA0002.jpg)
+<!-- ![alt text](IMG-20260714-WA0002.jpg) -->
+<img src="/assets/images/IMG-20260714-WA0002.jpg" style="width:80%;" />
