@@ -65,6 +65,8 @@ Those break times slowly became one of my favourite parts.
 For 45 minutes we would stop being "teachers" and simply become people they wanted to talk to. They would show us random things, tell us stories that made absolutely no sense, share the _chikki_ they got from "sarkar", ask us where DAU was, or simply stand around watching us.
 Looking back, I think a lot of the trust we built happened then.
 
+![text](/assets/images/20260711_102155.heic)
+
 ## How My Idea of Teaching Changed
 
 Because of this Internship, I had started looking at teaching very differently. Initially, I thought teaching was mostly about explaining concepts clearly. But somewhere along those twenty-eight days, I started thinking of it more like an art form, one that can be mastered through practice, and at the same time something that can be studied using the scientific method.
@@ -115,11 +117,15 @@ Towards the end of the internship, we were teaching opposite words. I asked the 
 
 Looking back, these are the moments I remember the most. Not because they were part of the lesson plan, but because they happened naturally. Somewhere along the way, the classroom stopped feeling like a place where we simply came to teach English. It became a place where all of us were learning, laughing, and making memories together.
 
+![alt text](/assets/images/20260703_114717.heic)
+
 ## The Friends we made along the way
 
 This internship also would not have been the same without the people I did it with. Almost every afternoon after returning to campus we'd sit together discussing what completely failed that morning and what unexpectedly worked. Someone would suggest a new game, someone else would redesign tomorrow's worksheet.
 
 Of course, it wasn't all lesson plans and worksheets. There were café visits, badminton games, lunch outings, hackathons in between, and the usual college chaos. Somehow those mornings in Prantiya and our afternoons back on campus blended into one experience
+
+![alt text](/assets/images/20260711_093236.heic)
 
 ## The Farewell
 
@@ -127,7 +133,7 @@ The last week of the internship felt different.
 
 Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Amishal ma'am was kind enough to sponsor the meal, and together we were able to celebrate with around 140 students.
 
-![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0035.jpg)
+![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0032.jpg)
 
 What surprised me most wasn't that the kids enjoyed the gifts, it was how grateful they were for them. Some of the children who picked up the colouring books kept asking us over and over,
 
@@ -166,3 +172,5 @@ This blog would not have been possible without those daily logs. They preserved 
 This was my best attempt to communicate what those twenty-eight days felt like. Consider this my blank sheet that was given to the kids on the last day.
 
 If nothing else, all I can say with certainty is that I will look at the world a little differently now.
+
+![alt text](IMG-20260714-WA0002.jpg)
