@@ -65,7 +65,7 @@ Those break times slowly became one of my favourite parts.
 For 45 minutes we would stop being "teachers" and simply become people they wanted to talk to. They would show us random things, tell us stories that made absolutely no sense, share the _chikki_ they got from "sarkar", ask us where DAU was, or simply stand around watching us.
 Looking back, I think a lot of the trust we built happened then.
 
-![text](/assets/images/20260711_102155.jpg)
+<img src="/assets/images/20260711_102155.jpg" style="width:80%;" />
 
 ## How My Idea of Teaching Changed
 
