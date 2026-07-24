@@ -126,6 +126,7 @@ This internship also would not have been the same without the people I did it wi
 Of course, it wasn't all lesson plans and worksheets. There were café visits, badminton games, lunch outings, hackathons in between, and the usual college chaos. Somehow those mornings in Prantiya and our afternoons back on campus blended into one experience
 
 ![alt text](/assets/images/20260711_093236.jpg)
+<img src="/assets/images/20260711_093236.jpg" style="width:50%;" />
 
 ## The Farewell
 
