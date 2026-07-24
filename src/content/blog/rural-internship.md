@@ -127,8 +127,7 @@ The last week of the internship felt different.
 
 Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Amishal ma'am was kind enough to sponsor the meal, and together we were able to celebrate with around 140 students.
 
-![alt text](\assets\images\IMG-20260713-WA0035.jpg)
-![alt text](\assets\images\IMG-20260713-WA0035.jpg)
+![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0035.jpg)
 
 What surprised me most wasn't that the kids enjoyed the gifts, it was how grateful they were for them. Some of the children who picked up the colouring books kept asking us over and over,
 
