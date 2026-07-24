@@ -65,7 +65,7 @@ Those break times slowly became one of my favourite parts.
 For 45 minutes we would stop being "teachers" and simply become people they wanted to talk to. They would show us random things, tell us stories that made absolutely no sense, share the _chikki_ they got from "sarkar", ask us where DAU was, or simply stand around watching us.
 Looking back, I think a lot of the trust we built happened then.
 
-![text](/assets/images/20260711_102155.heic)
+![text](/assets/images/20260711_102155.jpg)
 
 ## How My Idea of Teaching Changed
 
@@ -117,7 +117,7 @@ Towards the end of the internship, we were teaching opposite words. I asked the 
 
 Looking back, these are the moments I remember the most. Not because they were part of the lesson plan, but because they happened naturally. Somewhere along the way, the classroom stopped feeling like a place where we simply came to teach English. It became a place where all of us were learning, laughing, and making memories together.
 
-![alt text](/assets/images/20260703_114717.heic)
+![alt text](/assets/images/20260703_114717.jpg)
 
 ## The Friends we made along the way
 
@@ -125,7 +125,7 @@ This internship also would not have been the same without the people I did it wi
 
 Of course, it wasn't all lesson plans and worksheets. There were café visits, badminton games, lunch outings, hackathons in between, and the usual college chaos. Somehow those mornings in Prantiya and our afternoons back on campus blended into one experience
 
-![alt text](/assets/images/20260711_093236.heic)
+![alt text](/assets/images/20260711_093236.jpg)
 
 ## The Farewell
 
