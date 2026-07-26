@@ -79,8 +79,6 @@ That made me wonder: what was the difference? Eventually I realised it usually c
 
 ![Flow channel illustration](https://www.researchgate.net/profile/Florian-Bruehlmann/publication/279749323/figure/fig2/AS:391487863967751@1470349388913/The-flow-channel-is-a-balance-between-challenge-and-skill-Anxiety-arises-when-challenges.png)
 
-Of course, not every day went according to plan. Some days it was Saturday. Some days it was Free Dress Day. Some days the kids were simply too excited about sports or something happening later that morning. On those days we had to stop thinking like people trying to finish a lesson plan and start thinking like teachers. Maybe today's lesson becomes a game. Maybe we spend more time revising instead of introducing something new. Maybe today's goal is simply keeping everyone engaged. Those failures were learnable too.
-
 After a few weeks of trial and error, I realised my own teaching process had become surprisingly simple.
 
 > Give the child an instruction.
