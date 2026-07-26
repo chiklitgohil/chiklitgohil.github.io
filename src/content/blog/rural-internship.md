@@ -118,7 +118,7 @@ Towards the end of the internship, we were teaching opposite words. I asked the 
 Looking back, these are the moments I remember the most. Not because they were part of the lesson plan, but because they happened naturally. Somewhere along the way, the classroom stopped feeling like a place where we simply came to teach English. It became a place where all of us were learning, laughing, and making memories together.
 
 <!-- ![alt text](/assets/images/20260703_114717.jpg) -->
-<img src="/assets/images/20260703_114717.jpg" style="width:80%;" />
+<img src="/assets/images/20260703_114717.jpg" style="width:60%;" />
 
 ## The Friends we made along the way
 
