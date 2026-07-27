@@ -25,9 +25,9 @@ The more I thought about it, the more I realised this wasn't really an English p
 
 ## The Surprise
 
-Before I stepped into this school, I had a lot of assumptions about how this was going to go, as with anything new you do for the first time. I expected these kids to be rude, mischievous, and play-oriented. Mostly negative words, if I'm being honest. But Amishal Modi, our coordinator for the program who had started teaching a couple of days earlier, had to say otherwise. She told us these kids were incredibly curious and eager to learn. It sounded counterintuitive to me. Still, after just one hour inside that school, I had to agree with her. There surely wasn't any lack of curiosity. If anything, it was the opposite. They were eager enough to jump out of their seats to answer questions, and many of them simply told me they loved studying.
+Before I stepped into this school, I had a lot of assumptions about how this was going to go, as with anything new you do for the first time. I expected these kids to be rude, mischievous, and play-oriented. Mostly negative words, if I'm being honest. Still, after just one hour inside that school, There surely wasn't any lack of curiosity. If anything, it was the opposite. They were eager enough to jump out of their seats to answer questions, and many of them simply told me they loved studying.
 
-Another thing that caught me off guard was how quickly these kids got attached to us. Within just a couple of days, one group of little girls had somehow adopted Sanvi and Laher. They kept asking us if they could "keep them" in the village and whether we would come visit their homes on Sunday. Another group kept insisting we give them Amishal ma'am's phone number. At first I laughed because I thought they were joking. After a while, I realised they weren't.
+Another thing that caught me off guard was how quickly these kids got attached to us. Within just a couple of days, one group of little girls had somehow adopted Sanvi and Laher. They kept asking us if they could "keep them" in the village and whether we would come visit their homes on Sunday. At first I laughed because I thought they were joking. After a while, I realised they weren't.
 
 ## Choosing the Bottom 20%
 
@@ -131,7 +131,7 @@ Of course, it wasn't all lesson plans and worksheets. There were café visits, b
 
 The last week of the internship felt different.
 
-Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Amishal ma'am was kind enough to sponsor the meal, and together we were able to celebrate with around 140 students.
+Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Together we were able to celebrate with around 140 students.
 
 <!-- ![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0032.jpg) -->
 <div style="display: flex; gap: 1rem;">
@@ -147,7 +147,7 @@ What surprised me most wasn't that the kids enjoyed the gifts, it was how gratef
 
 They couldn't believe the books actually belonged to them. Watching them carefully hold onto those books as if they were something precious made me realise how differently value can be perceived depending on circumstance.
 
-The farewell itself was much more emotional than I expected. A few students voluntarily came to the front of the classroom and thanked us, Amishal ma'am, and the rest of the team. As teachers, you rarely get immediate feedback on whether you've actually made any difference. Hearing those few words from children we had only known for four weeks somehow made all the early mornings, skipped breakfasts, difficult classes, and failed lesson plans feel completely worth it.
+The farewell itself was much more emotional than I expected. A few students voluntarily came to the front of the classroom and thanked us, and the rest of the team. As teachers, you rarely get immediate feedback on whether you've actually made any difference. Hearing those few words from children we had only known for four weeks somehow made all the early mornings, skipped breakfasts, difficult classes, and failed lesson plans feel completely worth it.
 
 One funny thing about the last week was that we had accidentally said goodbye multiple times already. We taught different sections on different days, so every day we'd tell one group, _"This is our last class,"_ only to show up again the next morning for another section. By the actual final day, saying goodbye almost felt awkward because we'd already done it so many times.
 
