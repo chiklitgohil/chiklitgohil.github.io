@@ -23,11 +23,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Checkout Digital Garden
-        uses: actions/checkout@v4
-        with:
-          repository: chiklitgohil/chiklit-digital-garden
-          path: ./chiklit-digital-garden
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -37,16 +32,6 @@ jobs:
         run: npm ci
       - name: Build Astro
         run: npm run build
-      - name: Install dependencies (Garden)
-        working-directory: ./chiklit-digital-garden
-        run: npm ci
-      - name: Build Garden
-        working-directory: ./chiklit-digital-garden
-        run: npm run build
-      - name: Copy Garden to Astro dist
-        run: |
-          mkdir -p ./dist/garden
-          cp -r ./chiklit-digital-garden/dist/* ./dist/garden/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
