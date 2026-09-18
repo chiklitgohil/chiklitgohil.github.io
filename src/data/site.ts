@@ -14,7 +14,7 @@ export const navItems = [
   { label: "Work", href: "/work", icon: "briefcase" },
   { label: "Projects", href: "/projects", icon: "folder" },
   { label: "Blog", href: "/blog", icon: "book" },
-  { label: "Garden", href: "/garden", icon: "leaf" },
+  { label: "Garden", href: "https://chiklit-knowledge-base.vercel.app/", icon: "leaf" },
 ];
 
 export const socials = [
