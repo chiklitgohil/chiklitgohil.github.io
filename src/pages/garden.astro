@@ -1,0 +1,56 @@
+---
+const targetUrl = "https://chiklit-knowledge-base.vercel.app/";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Garden...</title>
+  
+  <meta http-equiv="refresh" content={`0;url=${targetUrl}`}>
+  
+  <style>
+    body {
+      background-color: #18181b;
+      color: #a1a1aa;
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .spinner {
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      border: 2px solid #3f3f46;
+      border-top-color: #fde047;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 0.75rem;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .container {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+
+  <script define:vars={{ targetUrl }}>
+    window.location.replace(targetUrl);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="spinner"></div>
+    <p>Loading Digital Garden...</p>
+  </div>
+</body>
+</html>
