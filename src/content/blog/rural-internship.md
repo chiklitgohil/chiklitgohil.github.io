@@ -29,6 +29,8 @@ Before I stepped into this school, I had a lot of assumptions about how this was
 
 Another thing that caught me off guard was how quickly these kids got attached to us. Within just a couple of days, one group of little girls had somehow adopted Sanvi and Laher. They kept asking us if they could "keep them" in the village and whether we would come visit their homes on Sunday. At first I laughed because I thought they were joking. After a while, I realised they weren't.
 
+<img src="/assets/images/20260703_114727.jpg" style="width:80%;" />
+
 ## Choosing the Bottom 20%
 
 After discussing skill-based grouping, I decided to work with the bottom 20% of the class. I had a reason for that choice. I realised I enjoyed teaching one child at a time much more than teaching an entire classroom. It felt almost like solving a puzzle. I would observe where a child got stuck, identify the prerequisite they were missing, and then break that problem down into the smallest exercise they could successfully practice. Not too easy that they became bored. Not too difficult that they gave up. Just somewhere in that sweet spot.
