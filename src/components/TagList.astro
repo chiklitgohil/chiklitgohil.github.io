@@ -1,17 +1,18 @@
 ---
 interface Props {
   tags: string[];
+  class?: string;
 }
 
-const { tags } = Astro.props;
+const { tags, class: className = "mt-4" } = Astro.props;
 ---
 
-<ul class="mt-4 flex flex-wrap gap-2">
-  {
-    tags.map((tag) => (
-      <li class="rounded-full border border-zinc-700 bg-zinc-900/70 px-2.5 py-1 text-xs leading-none text-zinc-300">
-        {tag}
-      </li>
-    ))
-  }
-</ul>
+{
+  tags.length > 0 && (
+    <ul class:list={["flex flex-wrap gap-2", className]}>
+      {tags.map((tag) => (
+        <li class="rounded-full border border-zinc-700 bg-zinc-900/70 px-2.5 py-1 text-xs leading-none text-zinc-300">{tag}</li>
+      ))}
+    </ul>
+  )
+}

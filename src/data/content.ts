@@ -1,10 +1,30 @@
+export interface Project {
+  name: string;
+  role: string;
+  description: string;
+  technologies: string[];
+  links?: { label: string; href: string }[];
+  /** YouTube embed URL (use the youtube-nocookie.com domain). */
+  video?: string;
+}
+
+export interface Work {
+  title: string;
+  type: string;
+  location: string;
+  period: string;
+  summary: string[];
+  technologies: string[];
+  details: string[];
+}
+
 export const about = [
   "Good day! I am Chiklit Gohil, a high-school graduate starting my journey at DA-IICT after recently moving to India. I was introduced to computers as soon as I could speak, and over time that curiosity grew into a deep passion for problem-solving. I do not pursue coding to check a box; I pursue it out of genuine passion, the same curiosity that made me dismantle toys as a child just to discover how they worked.",
   "I specialize in tackling problems, both in computer science and in life, because I enjoy understanding systems and finding solutions. Over the years, I have immersed myself in personal projects, internships, and freelance work, always trying to build tools and applications that solve real challenges I care about.",
   "Computer science is not just a field of study for me; it is a mindset. I thrive on learning fast, staying busy, and pushing myself to the next level. I approach every project as an opportunity to grow, experiment, and create meaningful solutions.",
 ];
 
-export const projects = [
+export const projects: Project[] = [
   {
     name: "MUN Website",
     role: "Full-stack Web Dev",
@@ -19,7 +39,7 @@ export const projects = [
     description:
       "Redesigned and optimized the DPSI school website with responsive layouts in HTML, CSS, and JavaScript, improving content navigation and the overall user experience.",
     technologies: ["HTML/CSS", "JavaScript", "Figma"],
-    video: "https://www.youtube.com/embed/Ok10ytM7dyk?si=RgkklCArXXcFYC_d&mute=1",
+    video: "https://www.youtube-nocookie.com/embed/Ok10ytM7dyk?si=RgkklCArXXcFYC_d&mute=1",
   },
   {
     name: "Florescope - The Harvest AI",
@@ -27,11 +47,11 @@ export const projects = [
     description:
       "An AI-assisted farming tool that uses image recognition to identify diseased potato plants early and help farmers improve crop yield.",
     technologies: ["HTML/CSS", "PyTorch", "JavaScript", "NumPy"],
-    video: "https://www.youtube.com/embed/4CEjLZza6Jg?si=kubCCrxMYGuW7KaA&mute=1",
+    video: "https://www.youtube-nocookie.com/embed/4CEjLZza6Jg?si=kubCCrxMYGuW7KaA&mute=1",
   },
 ];
 
-export const work = [
+export const work: Work[] = [
   {
     title: "Overshadowed By an ML Engineer",
     type: "Internship",

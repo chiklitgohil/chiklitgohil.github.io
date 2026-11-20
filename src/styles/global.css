@@ -1,7 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@theme {
+  /* --font-inter is defined by Astro's <Font> component (see astro.config.mjs). */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --animate-fade-up: fade-up 500ms ease-out both;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/*
+ * Custom rules live in cascade layers so Tailwind utilities (in the later
+ * `utilities` layer) can still override them. Unlayered CSS would win over
+ * every utility regardless of specificity, e.g. `a { color: inherit }`
+ * beating `text-white` on links.
+ */
+@layer base {
 :root {
   color-scheme: dark;
 }
@@ -17,7 +39,7 @@ body {
     radial-gradient(circle at top left, rgba(250, 204, 21, 0.08), transparent 28rem),
     #18181b;
   color: #d4d4d8;
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans);
 }
 
 ::selection {
@@ -32,7 +54,9 @@ a {
 details summary::-webkit-details-marker {
   display: none;
 }
+}
 
+@layer components {
 .prose-lite {
   color: #d4d4d8;
 }
@@ -65,14 +89,108 @@ details summary::-webkit-details-marker {
   margin: 1rem 0;
 }
 
+.prose-lite h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #f4f4f5;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
 .prose-lite ul,
 .prose-lite ol {
   margin: 1rem 0;
   padding-left: 1.25rem;
 }
 
+/* Tailwind preflight strips list markers; restore them for article content. */
+.prose-lite ul {
+  list-style: disc;
+}
+
+.prose-lite ol {
+  list-style: decimal;
+}
+
 .prose-lite li {
   margin: 0.35rem 0;
+}
+
+.prose-lite li::marker {
+  color: #fde047;
+}
+
+.prose-lite strong {
+  color: #fafafa;
+  font-weight: 650;
+}
+
+.prose-lite blockquote {
+  margin: 1.5rem 0;
+  border-left: 3px solid #fde047;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  color: #a1a1aa;
+  font-style: italic;
+}
+
+.prose-lite blockquote p {
+  margin: 0.5rem 0;
+}
+
+.prose-lite hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid #3f3f46;
+}
+
+.prose-lite img {
+  margin: 1.75rem auto;
+  border-radius: 0.75rem;
+  border: 1px solid #3f3f46;
+}
+
+.prose-lite figure {
+  margin: 1.75rem 0;
+}
+
+.prose-lite figure img {
+  margin: 0;
+}
+
+.prose-lite figcaption {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a1a1aa;
+}
+
+.prose-lite pre {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  border-radius: 0.75rem;
+  border: 1px solid #3f3f46;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.6rem;
+}
+
+.prose-lite table {
+  margin: 1.5rem 0;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.prose-lite th,
+.prose-lite td {
+  border: 1px solid #3f3f46;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.prose-lite th {
+  background: #27272a;
+  color: #fafafa;
 }
 
 .prose-lite a {
@@ -82,9 +200,10 @@ details summary::-webkit-details-marker {
   text-underline-offset: 4px;
 }
 
-.prose-lite code {
+.prose-lite :not(pre) > code {
   border-radius: 0.375rem;
   background: #27272a;
   padding: 0.1rem 0.35rem;
   color: #fef3c7;
+}
 }

@@ -3,6 +3,7 @@ title: "Splinter: Building a to-do App for an Audience of One"
 description: "Why I decided to build my own productivity app."
 date: 2026-06-15
 tags: ["projects", "web-dev", "productivity"]
+cover: ./pkm-meme.png
 ---
 
 ## Why another to-do app?
@@ -15,7 +16,7 @@ I am not sure if I can call it a problem because it is just me nitpicking in sof
 
 Just when I was finally settled with it, it worked really well for a long time. Then came the need for data collection. I figured out my personal way of building any habit I wanted. That is when there was a need to collect data. In short, I wanted to keep track of when I was working and when I wasn't and if I was meeting my daily targets. because it was part of my robust approach to building any habit I wanted. And I did not want to lose this, but somehow I wanted it combined with my daily task because they overlapped to some degree. That is when I looked for that kind of solution online, and the ones I found were either half-baked or paid. That is when I classified this as a problem and determined that I needed to devise a solution.
 
-![Image of a pkm community meme](/assets/images/splinter-pkm-meme.png)
+![Image of a pkm community meme](./pkm-meme.png)
 
 ## Designing the Solution
 

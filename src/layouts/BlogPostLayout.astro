@@ -1,43 +1,33 @@
 ---
+import type { ImageMetadata, MarkdownHeading } from "astro";
 import BaseLayout from "./BaseLayout.astro";
-
-interface Heading {
-  depth: number;
-  slug: string;
-  text: string;
-}
+import TagList from "@components/TagList.astro";
+import { formatDate } from "../utils/date";
 
 interface Props {
   title: string;
   description: string;
   date: Date;
   tags?: string[];
-  headings?: Heading[];
+  headings?: MarkdownHeading[];
+  cover?: ImageMetadata;
 }
 
-const { title, description, date, tags = [], headings = [] } = Astro.props;
+const { title, description, date, tags = [], headings = [], cover } = Astro.props;
 const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 ---
 
-<BaseLayout title={title} description={description} wide>
+<BaseLayout title={title} description={description} wide image={cover} type="article" publishedTime={date}>
   <main class="mx-auto grid max-w-6xl gap-10 pt-16 lg:grid-cols-[minmax(0,760px)_220px]">
     <article class="min-w-0">
       <a class="text-sm font-medium text-zinc-400 underline decoration-zinc-700 underline-offset-4 transition-colors hover:text-white" href="/blog">
         Back to blog
       </a>
       <header class="mt-6 border-b border-zinc-800 pb-8">
-        <p class="text-sm text-yellow-300">
-          {date.toLocaleDateString("en", { year: "numeric", month: "long", day: "numeric" })}
-        </p>
+        <time class="text-sm text-yellow-300" datetime={date.toISOString()}>{formatDate(date)}</time>
         <h1 class="mt-3 text-4xl font-bold leading-tight text-white sm:text-5xl">{title}</h1>
         <p class="mt-4 text-lg leading-8 text-zinc-300">{description}</p>
-        {
-          tags.length > 0 && (
-            <ul class="mt-5 flex flex-wrap gap-2">
-              {tags.map((tag) => <li class="rounded-full border border-zinc-700 px-2.5 py-1 text-xs text-zinc-300">{tag}</li>)}
-            </ul>
-          )
-        }
+        <TagList tags={tags} class="mt-5" />
       </header>
       <div class="prose-lite mt-8">
         <slot />

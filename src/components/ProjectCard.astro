@@ -1,21 +1,10 @@
 ---
 import Icon from "./Icon.astro";
 import TagList from "./TagList.astro";
-
-interface LinkItem {
-  label: string;
-  href: string;
-}
+import type { Project } from "@data/content";
 
 interface Props {
-  project: {
-    name: string;
-    role: string;
-    description: string;
-    technologies: string[];
-    links?: LinkItem[];
-    video?: string;
-  };
+  project: Project;
 }
 
 const { project } = Astro.props;
@@ -43,6 +32,7 @@ const { project } = Astro.props;
         <iframe
           class="aspect-video w-full"
           src={project.video}
+          loading="lazy"
           title={`${project.name} video`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
