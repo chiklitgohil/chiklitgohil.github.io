@@ -4,7 +4,6 @@ export const site = {
   description:
     "First-year ICT-CS student at DA-IICT, building web projects and exploring AI research.",
   email: "chiklitgohil01+contact@gmail.com",
-  profileImage: "/assets/images/1707082201738.jfif",
   longSubtitle: "First-year at DA-IICT | ICT-CS | AI Research",
   shortSubtitle: "First-year at DA-IICT | AI Research",
 };

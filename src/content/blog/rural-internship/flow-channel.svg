@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="flow-title flow-desc" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+  <title id="flow-title">The flow channel</title>
+  <desc id="flow-desc">Challenge on the vertical axis and skill on the horizontal axis. A diagonal band where challenge matches skill is labelled Flow. Above it, where the challenge is greater than the skill, is Anxiety. Below it, where the skill is greater than the challenge, is Boredom.</desc>
+  <defs>
+    <marker id="flow-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#71717a" />
+    </marker>
+  </defs>
+
+  <polygon points="70,300 70,240 380,30 450,30 450,90 140,300" fill="#fde047" fill-opacity="0.14" stroke="#fde047" stroke-opacity="0.55" stroke-width="1.5" stroke-linejoin="round" />
+  <text x="260" y="168" transform="rotate(-34 260 168)" text-anchor="middle" fill="#fde047" font-size="18" font-weight="700">Flow</text>
+
+  <text x="150" y="88" text-anchor="middle" fill="#e4e4e7" font-size="16" font-weight="600">Anxiety</text>
+  <text x="150" y="108" text-anchor="middle" fill="#a1a1aa" font-size="12">too hard</text>
+
+  <text x="370" y="232" text-anchor="middle" fill="#e4e4e7" font-size="16" font-weight="600">Boredom</text>
+  <text x="370" y="252" text-anchor="middle" fill="#a1a1aa" font-size="12">too easy</text>
+
+  <line x1="70" y1="300" x2="70" y2="22" stroke="#71717a" stroke-width="1.5" marker-end="url(#flow-arrow)" />
+  <line x1="70" y1="300" x2="460" y2="300" stroke="#71717a" stroke-width="1.5" marker-end="url(#flow-arrow)" />
+  <text x="40" y="165" transform="rotate(-90 40 165)" text-anchor="middle" fill="#a1a1aa" font-size="13">Challenge</text>
+  <text x="265" y="328" text-anchor="middle" fill="#a1a1aa" font-size="13">Skill</text>
+</svg>

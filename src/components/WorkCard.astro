@@ -1,17 +1,10 @@
 ---
 import Icon from "./Icon.astro";
 import TagList from "./TagList.astro";
+import type { Work } from "@data/content";
 
 interface Props {
-  item: {
-    title: string;
-    type: string;
-    location: string;
-    period: string;
-    summary: string[];
-    technologies: string[];
-    details: string[];
-  };
+  item: Work;
 }
 
 const { item } = Astro.props;

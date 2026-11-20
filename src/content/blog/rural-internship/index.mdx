@@ -3,7 +3,18 @@ title: "What 28 Days in a Rural School Taught Me"
 description: "How teaching English in a rural government school changed the way I think about learning, teaching, and reflection."
 date: 2026-07-24
 tags: ["teaching", "internship", "learning"]
+cover: ./group-photo.jpg
 ---
+
+import Figure from "@components/Figure.astro";
+import FlowChannel from "./flow-channel.svg";
+import longJump from "./long-jump.jpg";
+import breakTimeSelfie from "./break-time-selfie.jpg";
+import studentsCheering from "./students-cheering.jpg";
+import groupPhoto from "./group-photo.jpg";
+import farewellTreats from "./farewell-treats.jpg";
+import farewellCelebration from "./farewell-celebration.jpg";
+import teamLastDay from "./team-last-day.jpg";
 
 ## Why I Joined
 
@@ -29,7 +40,11 @@ Before I stepped into this school, I had a lot of assumptions about how this was
 
 Another thing that caught me off guard was how quickly these kids got attached to us. Within just a couple of days, one group of little girls had somehow adopted Sanvi and Laher. They kept asking us if they could "keep them" in the village and whether we would come visit their homes on Sunday. At first I laughed because I thought they were joking. After a while, I realised they weren't.
 
-<img src="/assets/images/20260703_114727.jpg" style="width:80%;" />
+<Figure
+  src={longJump}
+  alt="A student in a pink school uniform mid-leap during a long jump competition on an open field, while classmates and a teacher watch."
+  width={80}
+/>
 
 ## Choosing the Bottom 20%
 
@@ -67,7 +82,11 @@ Those break times slowly became one of my favourite parts.
 For 45 minutes we would stop being "teachers" and simply become people they wanted to talk to. They would show us random things, tell us stories that made absolutely no sense, share the _chikki_ they got from "sarkar", ask us where DAU was, or simply stand around watching us.
 Looking back, I think a lot of the trust we built happened then.
 
-<img src="/assets/images/20260711_102155.jpg" style="width:80%;" />
+<Figure
+  src={breakTimeSelfie}
+  alt="A selfie with a group of grinning boys making peace signs in the school courtyard during break time."
+  width={80}
+/>
 
 ## How My Idea of Teaching Changed
 
@@ -75,11 +94,17 @@ Because of this Internship, I had started looking at teaching very differently. 
 
 This shouldn't really come as a surprise if you know me. Whenever I become interested in something, I usually end up reading research papers about it. So just on the third night after the internship had started, I found myself reading papers like [_Teaching the Science of Learning_](https://pmc.ncbi.nlm.nih.gov/articles/PMC5780548/). Around the same time, I also came across [Spencer Russell](https://www.instagram.com/toddlerscanread/reels/), a teacher online who focuses on teaching very young kids how to read English using phonics and strong foundations.
 
-Naturally, I began to wonder. Could I try out some of these ideas the very next day? Every day slowly became a small experiment. I found myself borrowing concepts like [Deliberate Practice](<https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice>), the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method), and [Flow](<https://en.wikipedia.org/wiki/Flow_(psychology)>), often without even realising it at the time. Sometimes ma'am would prepare what looked like a brilliant worksheet, only for the classroom to become noisy within five minutes. Other times, the exact same students would quietly spend half an hour solving sheet after sheet without us needing to tell them anything.
+Naturally, I began to wonder. Could I try out some of these ideas the very next day? Every day slowly became a small experiment. I found myself borrowing concepts like [Deliberate Practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice), the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method), and [Flow](https://en.wikipedia.org/wiki/Flow_(psychology)), often without even realising it at the time. Sometimes ma'am would prepare what looked like a brilliant worksheet, only for the classroom to become noisy within five minutes. Other times, the exact same students would quietly spend half an hour solving sheet after sheet without us needing to tell them anything.
 
 That made me wonder: what was the difference? Eventually I realised it usually came down to one thing, difficulty. When the work was too easy, they got bored. When it was too difficult, they gave up. But somewhere in between there was this sweet spot where they became completely absorbed in the activity. Looking back, this is probably where I unknowingly stumbled upon the idea of the Flow Channel.
 
-![Flow channel illustration](https://www.researchgate.net/profile/Florian-Bruehlmann/publication/279749323/figure/fig2/AS:391487863967751@1470349388913/The-flow-channel-is-a-balance-between-challenge-and-skill-Anxiety-arises-when-challenges.png)
+<figure class="mx-auto" style={{ width: "80%" }}>
+  <FlowChannel class="h-auto w-full" />
+  <figcaption>
+    The flow channel: learning sticks when challenge keeps pace with skill. Adapted from Mihaly Csikszentmihalyi's model of{" "}
+    <a href="https://en.wikipedia.org/wiki/Flow_(psychology)">flow</a>.
+  </figcaption>
+</figure>
 
 After a few weeks of trial and error, I realised my own teaching process had become surprisingly simple.
 
@@ -117,8 +142,11 @@ Towards the end of the internship, we were teaching opposite words. I asked the 
 
 Looking back, these are the moments I remember the most. Not because they were part of the lesson plan, but because they happened naturally. Somewhere along the way, the classroom stopped feeling like a place where we simply came to teach English. It became a place where all of us were learning, laughing, and making memories together.
 
-<!-- ![alt text](/assets/images/20260703_114717.jpg) -->
-<img src="/assets/images/20260703_114717.jpg" style="width:60%;" />
+<Figure
+  src={studentsCheering}
+  alt="A cheerful group of boys in pink school uniforms posing with peace signs on a dirt path beside the fields."
+  width={60}
+/>
 
 ## The Friends we made along the way
 
@@ -126,8 +154,11 @@ This internship also would not have been the same without the people I did it wi
 
 Of course, it wasn't all lesson plans and worksheets. There were café visits, badminton games, lunch outings, hackathons in between, and the usual college chaos. Somehow those mornings in Prantiya and our afternoons back on campus blended into one experience
 
-<!-- ![alt text](/assets/images/20260711_093236.jpg) -->
-<img src="/assets/images/20260711_093236.jpg" style="width:80%;" />
+<Figure
+  src={groupPhoto}
+  alt="A group selfie with dozens of smiling students crowded together under the school's open-air shelter."
+  width={80}
+/>
 
 ## The Farewell
 
@@ -135,11 +166,12 @@ The last week of the internship felt different.
 
 Up until then, our goal had always been to teach as much as we could during the limited time we had with these kids. But now we started thinking about what we could leave behind after we were gone. We decided to bring along some small gifts, animal stickers, board games, colouring books, juice, and cake. Nothing extravagant, just something to make the last few days memorable. Together we were able to celebrate with around 140 students.
 
-<!-- ![alt text](/assets/images/IMG-20260713-WA0035.jpg)![alt text](/assets/images/IMG-20260713-WA0032.jpg) -->
-<div style="display: flex; gap: 1rem;">
-    <img src="/assets/images/IMG-20260713-WA0035.jpg" style="width:50%;" />
-    <img src="/assets/images/IMG-20260713-WA0032.jpg" style="width:50%;" />
-</div>
+<Figure
+  images={[
+    { src: farewellTreats, alt: "Students in green uniforms sitting on the floor, cheerfully holding up the snack packets we handed out." },
+    { src: farewellCelebration, alt: "Rows of students in pink uniforms seated on mats under a shelter during the farewell celebration." },
+  ]}
+/>
 
 What surprised me most wasn't that the kids enjoyed the gifts, it was how grateful they were for them. Some of the children who picked up the colouring books kept asking us over and over,
 
@@ -179,5 +211,8 @@ This was my best attempt to communicate what those twenty-eight days felt like. 
 
 If nothing else, all I can say with certainty is that I will look at the world a little differently now.
 
-<!-- ![alt text](IMG-20260714-WA0002.jpg) -->
-<img src="/assets/images/IMG-20260714-WA0002.jpg" style="width:80%;" />
+<Figure
+  src={teamLastDay}
+  alt="A group of college students and teachers standing together in front of a classroom on the last day."
+  width={80}
+/>

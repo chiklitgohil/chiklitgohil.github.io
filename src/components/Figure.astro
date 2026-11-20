@@ -1,0 +1,50 @@
+---
+/**
+ * Optimized image(s) for blog posts. Pass one image with `src`/`alt`, or
+ * several with `images` to place them side by side.
+ *
+ *   <Figure src={photo} alt="..." width={80} caption="..." />
+ *   <Figure images={[{ src: a, alt: "..." }, { src: b, alt: "..." }]} />
+ */
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Item {
+  src: ImageMetadata;
+  alt: string;
+}
+
+type Props = {
+  /** Share of the article column the figure takes, in percent. */
+  width?: number;
+  caption?: string;
+} & ({ src: ImageMetadata; alt: string; images?: never } | { images: Item[]; src?: never; alt?: never });
+
+const { width = 100, caption } = Astro.props;
+const items: Item[] = Astro.props.images ?? [{ src: Astro.props.src!, alt: Astro.props.alt! }];
+
+// Largest image generated: enough for the 760px column on 2x screens.
+const MAX_WIDTH = 1600;
+
+// Article column is at most 760px wide (BlogPostLayout); size each image to its share of it.
+const share = width / items.length;
+const sizes = `(min-width: 760px) ${Math.round(7.6 * share)}px, ${Math.round(share)}vw`;
+---
+
+<figure class="mx-auto" style={`width: ${width}%`}>
+  <div class="grid gap-3" style={`grid-template-columns: repeat(${items.length}, minmax(0, 1fr))`}>
+    {
+      items.map((item) => (
+        <Image
+          src={item.src}
+          alt={item.alt}
+          width={Math.min(MAX_WIDTH, item.src.width)}
+          widths={[480, 800, 1200, MAX_WIDTH]}
+          sizes={sizes}
+          class="h-full w-full object-cover"
+        />
+      ))
+    }
+  </div>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
