@@ -2,10 +2,10 @@ export const site = {
   name: "Chiklit Gohil",
   title: "Chiklit Gohil",
   description:
-    "First-year ICT-CS student at DA-IICT, building web projects and exploring AI research.",
+    "Second-year ICT-CS student at DA-IICT, building web projects and exploring AI research.",
   email: "chiklitgohil01+contact@gmail.com",
-  longSubtitle: "First-year at DA-IICT | ICT-CS | AI Research",
-  shortSubtitle: "First-year at DA-IICT | AI Research",
+  longSubtitle: "Second-year at DA-IICT | ICT-CS | AI Research",
+  shortSubtitle: "Second-year at DA-IICT | AI Research",
 };
 
 export const navItems = [
